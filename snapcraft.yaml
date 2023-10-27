@@ -20,4 +20,4 @@ parts:
   csprecon:
     plugin: go
     source-type: git
-    source: https://github.com/edoardottt/csprecon
+    source: https://github.com/tr3ss/csprecon

@@ -1,4 +1,4 @@
-REPO=github.com/edoardottt/csprecon
+REPO=github.com/tr3ss/csprecon
 
 remod:
 	@rm -rf go.*

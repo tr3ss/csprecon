@@ -1,7 +1,7 @@
 /*
 csprecon - Discover new target domains using Content Security Policy
 
-This repository is under MIT License https://github.com/edoardottt/csprecon/blob/main/LICENSE
+This repository is under MIT License https://github.com/tr3ss/csprecon/blob/main/LICENSE
 */
 
 package input
@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/edoardottt/csprecon/pkg/output"
+	"github.com/tr3ss/csprecon/pkg/output"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"

@@ -1,7 +1,7 @@
 /*
 csprecon - Discover new target domains using Content Security Policy
 
-This repository is under MIT License https://github.com/edoardottt/csprecon/blob/main/LICENSE
+This repository is under MIT License https://github.com/tr3ss/csprecon/blob/main/LICENSE
 */
 
 package csprecon
@@ -24,7 +24,7 @@ import (
 const (
 	TLSHandshakeTimeout = 10
 	KeepAlive           = 30
-	DomainRegex         = `(?i).*[a-z\_\-0-9]+\.[a-z]+`
+	DomainRegex         = `(?m)(?i)(?:\*\.|)([a-z][a-z_0-9.-]+\.[a-z]+)`
 	MinURLLength        = 4
 )
 

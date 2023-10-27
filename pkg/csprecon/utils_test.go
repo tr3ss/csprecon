@@ -1,7 +1,7 @@
 /*
 csprecon - Discover new target domains using Content Security Policy
 
-This repository is under MIT License https://github.com/edoardottt/csprecon/blob/main/LICENSE
+This repository is under MIT License https://github.com/tr3ss/csprecon/blob/main/LICENSE
 */
 
 package csprecon_test
@@ -9,8 +9,8 @@ package csprecon_test
 import (
 	"testing"
 
-	"github.com/edoardottt/csprecon/pkg/csprecon"
-	"github.com/edoardottt/csprecon/pkg/input"
+	"github.com/tr3ss/csprecon/pkg/csprecon"
+	"github.com/tr3ss/csprecon/pkg/input"
 
 	"github.com/stretchr/testify/require"
 )
